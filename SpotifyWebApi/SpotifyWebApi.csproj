@@ -7,8 +7,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Authentication" />
-      <Folder Include="Playlists" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+      <PackageReference Include="Ardalis.ApiEndpoints" Version="4.0.1" />
+      <PackageReference Include="MediatR" Version="10.0.1" />
+      <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Application\Application.csproj" />
     </ItemGroup>
 
 </Project>

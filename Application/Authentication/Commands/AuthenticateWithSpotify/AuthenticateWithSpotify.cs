@@ -10,14 +10,14 @@ public static class AuthenticateWithSpotify
     
     public class Handler : IRequestHandler<Request, Response>
     {
-        public Handler()
-        {
-            
-        }
-        
+        private readonly ISpotifyAuthenticationFacade _authenticationFacade;
+
+        public Handler(ISpotifyAuthenticationFacade authenticationFacade) => _authenticationFacade = authenticationFacade;
+
         public Task<Response> Handle(Request request, CancellationToken cancellationToken)
         {
-            return Task.FromResult(new Response("OK"));
+            var url = _authenticationFacade.BuildAuthenticationUrl();
+            return Task.FromResult(new Response(url));
         }
     }
 }
