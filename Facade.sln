@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{6CC23D7F-01E2-40FD-BF34-6CC7D102D009}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{B0BBD170-F8E5-42DC-AAF0-B39B2FA0272A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyWebApi", "SpotifyWebApi\SpotifyWebApi.csproj", "{20639F51-C16B-46F4-9653-B881DC669936}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CC23D7F-01E2-40FD-BF34-6CC7D102D009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CC23D7F-01E2-40FD-BF34-6CC7D102D009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CC23D7F-01E2-40FD-BF34-6CC7D102D009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CC23D7F-01E2-40FD-BF34-6CC7D102D009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0BBD170-F8E5-42DC-AAF0-B39B2FA0272A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0BBD170-F8E5-42DC-AAF0-B39B2FA0272A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0BBD170-F8E5-42DC-AAF0-B39B2FA0272A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0BBD170-F8E5-42DC-AAF0-B39B2FA0272A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20639F51-C16B-46F4-9653-B881DC669936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20639F51-C16B-46F4-9653-B881DC669936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20639F51-C16B-46F4-9653-B881DC669936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20639F51-C16B-46F4-9653-B881DC669936}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
